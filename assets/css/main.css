@@ -1712,7 +1712,7 @@ input[type=radio] + label:before {
 .image.fit {
   display: block;
   margin: 0 0 2em 0;
-  width: 40%;
+  width: 100%;
 }
 .image.fit img {
   width: 100%;
@@ -2128,7 +2128,7 @@ input[type=button]:disabled,
   position: fixed;
   text-align: right;
   top: 0;
-  width: 33%;
+  width: 27%;
 }
 #header > * {
   -moz-flex-shrink: 0;
@@ -2193,10 +2193,10 @@ input[type=button]:disabled,
 
 /* Main */
 #main {
-  margin-left: 33%;
-  max-width: 54em;
+  margin-left: 27%;
+  max-width: 65em;
   padding: 8em 4em 4em 4em;
-  width: calc(100% - 33%);
+  width: calc(100% - 27%);
 }
 #main > section {
   border-top: solid 2px #d3d3d3;
