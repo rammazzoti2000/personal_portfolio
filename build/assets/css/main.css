@@ -186,7 +186,7 @@ sup {
 
 hr {
   border: 0;
-  border-bottom: solid 2px #d3d3d3;
+  border-bottom: solid 2px #efefef;
   margin: 2em 0;
 }
 hr.major {
@@ -194,7 +194,7 @@ hr.major {
 }
 
 blockquote {
-  border-left: solid 6px #d3d3d3;
+  border-left: solid 6px #efefef;
   font-style: italic;
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 1.5em;
@@ -203,7 +203,7 @@ blockquote {
 code {
   background: #f7f7f7;
   border-radius: 0.35em;
-  border: solid 2px #d3d3d3;
+  border: solid 2px #efefef;
   font-family: "Courier New", monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
@@ -1587,7 +1587,7 @@ input[type=radio] + label:before {
 /* Box */
 .box {
   border-radius: 0.35em;
-  border: solid 2px #d3d3d3;
+  border: solid 2px #efefef;
   margin-bottom: 2em;
   padding: 1.5em;
 }
@@ -1712,7 +1712,7 @@ input[type=radio] + label:before {
 .image.fit {
   display: block;
   margin: 0 0 2em 0;
-  width: 40%;
+  width: 100%;
 }
 .image.fit img {
   width: 100%;
@@ -1751,7 +1751,7 @@ ul.alt {
   padding-left: 0;
 }
 ul.alt li {
-  border-top: solid 2px #d3d3d3;
+  border-top: solid 2px #efefef;
   padding: 0.5em 0;
 }
 ul.alt li:first-child {
@@ -1920,7 +1920,7 @@ table {
   width: 100%;
 }
 table tbody tr {
-  border: solid 1px #d3d3d3;
+  border: solid 1px #efefef;
   border-left: 0;
   border-right: 0;
 }
@@ -1938,16 +1938,16 @@ table th {
   text-align: left;
 }
 table thead {
-  border-bottom: solid 2px #d3d3d3;
+  border-bottom: solid 2px #efefef;
 }
 table tfoot {
-  border-top: solid 2px #d3d3d3;
+  border-top: solid 2px #efefef;
 }
 table.alt {
   border-collapse: separate;
 }
 table.alt tbody tr td {
-  border: solid 2px #d3d3d3;
+  border: solid 2px #efefef;
   border-left-width: 0;
   border-top-width: 0;
 }
@@ -1979,7 +1979,7 @@ input[type=button],
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 0.35em;
-  border: solid 3px #d3d3d3;
+  border: solid 3px #efefef;
   color: #787878 !important;
   cursor: pointer;
   display: inline-block;
@@ -2077,21 +2077,15 @@ input[type=button]:disabled,
 /* Work Item */
 .work-item {
   margin: 0 0 2em 0;
-  width: 100%;
-  display: flex;
 }
 .work-item .image {
   margin: 0 0 1.5em 0;
 }
-.work-item .art-description {
-  margin: 0 15px;
-  width: 100%;
-}
-.work-item .art-description h3 {
+.work-item h3 {
   font-size: 1em;
   margin: 0 0 0.5em 0;
 }
-.work-item .art-description p {
+.work-item p {
   font-size: 0.8em;
   line-height: 1.5em;
   margin: 0;
@@ -2128,7 +2122,7 @@ input[type=button]:disabled,
   position: fixed;
   text-align: right;
   top: 0;
-  width: 33%;
+  width: 35%;
 }
 #header > * {
   -moz-flex-shrink: 0;
@@ -2193,13 +2187,13 @@ input[type=button]:disabled,
 
 /* Main */
 #main {
-  margin-left: 33%;
+  margin-left: 35%;
   max-width: 54em;
   padding: 8em 4em 4em 4em;
-  width: calc(100% - 33%);
+  width: calc(100% - 35%);
 }
 #main > section {
-  border-top: solid 2px #d3d3d3;
+  border-top: solid 2px #efefef;
   margin: 4em 0 0 0;
   padding: 4em 0 0 0;
 }
@@ -2563,16 +2557,6 @@ body.is-touch .poptrox-popup .closer {
     margin: 0;
     padding: 6em 4em;
     width: 100%;
-  }
-  #main .work-item {
-    flex-direction: column;
-  }
-  #main .work-item .image {
-    width: 100%;
-    margin: 0 0 10px;
-  }
-  #main .work-item .art-description {
-    margin: 0;
   }
 }
 /* Small */
