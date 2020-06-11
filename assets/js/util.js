@@ -178,12 +178,12 @@
 				}
 
 			// Event: Touch stuff.
-				$this.on('touchstart', function(event) {
-
-					$this.touchPosX = event.originalEvent.touches[0].pageX;
-					$this.touchPosY = event.originalEvent.touches[0].pageY;
-
-				})
+				// $this.on('touchstart', function(event) {
+				//
+				// 	$this.touchPosX = event.originalEvent.touches[0].pageX;
+				// 	$this.touchPosY = event.originalEvent.touches[0].pageY;
+				//
+				// })
 
 				$this.on('touchmove', function(event) {
 
