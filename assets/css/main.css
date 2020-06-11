@@ -1830,6 +1830,7 @@ ul.actions .actions-wrapper {
   flex-direction: row;
   align-items: baseline;
   align-self: baseline;
+  width: 100%;
 }
 ul.actions .languages {
   display: inline-flex;
