@@ -107,7 +107,6 @@ Give a :star: if you like this project!
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Microverse](https://www.microverse.org/)
-* [HTML5 UP!](https://html5up.net/)
 * [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
