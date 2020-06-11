@@ -23,7 +23,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/rammazzoti2000/personal_portfolio">
-    <img src="#" alt="Logo" width="80" height="80">
+    <img src="images/microverse.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Personal Portfolio</h3>
@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://raw.githack.com/rammazzoti2000/personal_portfolio/master/index.html)
+[![Product Name Screen Shot][product-screenshot]](https://rammazzoti2000.github.io/personal_portfolio/)
 
 This project features some of my github projects and is also a clone for the one-pager portfolio by wix.com
 
@@ -78,7 +78,7 @@ cd to the projects directory and open the index.html in your browser
 <!-- LIVE VERSION -->
 ## Live version
 
-You can see it [here](https://raw.githack.com/rammazzoti2000/personal_portfolio/master/index.html)
+You can see it [here](https://rammazzoti2000.github.io/personal_portfolio/)
 
 <!-- AUTOMATED TEST -->
 ## Automated Test
@@ -88,10 +88,10 @@ You can see it [here](https://raw.githack.com/rammazzoti2000/personal_portfolio/
 <!-- CONTACT -->
 ## Author
 
-👤 Alexandru Bangau 
+👤 Alexandru Bangau
 
-- Twitter: [@alex_maxinova](https://twitter.com/alex_maxinova) 
-- Github: [@euqueme](https://github.com/rammazzoti2000) 
+- Twitter: [@alex_maxinova](https://twitter.com/alex_maxinova)
+- Github: [@euqueme](https://github.com/rammazzoti2000)
 - Gmail: bangau.alexandru@gmail.com
 
 ## :handshake: Contributing
@@ -120,4 +120,4 @@ Give a :star: if you like this project!
 [stars-url]: https://github.com/rammazzoti2000/personal_portfolio/stargazers
 [issues-shield]: https://img.shields.io/github/issues/rammazzoti2000/personal_portfolio.svg?style=flat-square
 [issues-url]: https://github.com/rammazzoti2000/personal_portfolio/issues
-[product-screenshot]: img/screenshot.png
+[product-screenshot]: images/screenshot.png
