@@ -1639,7 +1639,7 @@ $size-header-pad: 4em;
 							}
 
 							.icon {
-								color: rgba(255, 255, 255, 0.4);
+								color: _palette(accent2, fg-light);
 
 								&:before {
 									font-size: 1.5em;
