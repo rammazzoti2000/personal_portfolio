@@ -58,18 +58,18 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://rammazzoti2000.github.io/personal_portfolio/)
 
-This project features some of my github projects and is also a clone for the one-pager portfolio by wix.com
+This project represents my personal Portfolio and features some of my github projects
 
 ### Built With
 This project was built using these technologies.
 * Bootstrap
 * HTML
 * CSS3
-* VsCode
+* Atom :atom:
 
 ## Usage
 
-If you want to use it locally [download](https://github.com/euqueme/portfolio/archive/master.zip) or clone the repo with the following command on a linux terminal:
+If you want to use it locally [download](https://github.com/rammazzoti2000/personal_portfolio/archive/master.zip) or clone the repo with the following command on a linux terminal:
 
 ```git clone https://github.com/rammazzoti2000/personal_portfolio.git```
 
