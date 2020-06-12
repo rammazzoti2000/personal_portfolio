@@ -87,20 +87,20 @@ You can see it [here](https://rammazzoti2000.github.io/personal_portfolio/)
 
 <!-- CONTACT -->
 ## Author
-Alexandru Bangau 👤
+👤 Alexandru Bangau
 
 - Twitter: [@alex_maxinova](https://twitter.com/alex_maxinova)
 - Github: [@rammazzoti2000](https://github.com/rammazzoti2000)
 - Gmail: bangau.alexandru@gmail.com
 
-## Contributing :handshake:
+## :handshake: Contributing
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/rammazzoti2000/personal_portfolio/issues).
 
 ## Show your support
 
-Give a :star:   if you like this project!
+Give a :star: if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
