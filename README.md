@@ -78,7 +78,7 @@ cd to the projects directory and open the index.html in your browser
 <!-- LIVE VERSION -->
 ## Live version
 
-You can see it [here](https://rammazzoti2000.github.io/personal_portfolio/)
+You can see it [here](https://alex-bangau.netlify.app/)
 
 <!-- AUTOMATED TEST -->
 ## Automated Test
