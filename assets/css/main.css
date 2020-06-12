@@ -2305,7 +2305,6 @@ input[type=button]:disabled,
 /* Main */
 #main {
   margin-left: 27%;
-  max-width: 204em;
   padding: 8em 4em 4em 4em;
   width: calc(100% - 27%);
   background-color: #303030;
