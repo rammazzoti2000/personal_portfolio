@@ -2229,7 +2229,7 @@ input[type=button]:disabled,
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
   box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.6);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
   height: 100%;
   left: 0;
   padding: 8em 4em;
@@ -2262,7 +2262,7 @@ input[type=button]:disabled,
   color: #ffffff;
 }
 #header h1 {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 1.35em;
   line-height: 1.75em;
   margin: 0;
@@ -2277,10 +2277,10 @@ input[type=button]:disabled,
   margin: 1em 0 0 0;
 }
 #footer .icons a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
 }
 #footer .copyright {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 0.8em;
   list-style: none;
   margin: 1em 0 0 0;
@@ -2305,7 +2305,6 @@ input[type=button]:disabled,
 /* Main */
 #main {
   margin-left: 27%;
-  max-width: 65em;
   padding: 8em 4em 4em 4em;
   width: calc(100% - 27%);
   background-color: #303030;
@@ -2488,7 +2487,7 @@ body.is-touch .poptrox-popup .closer {
     padding-right: 0;
   }
   #header > .inner .top-icons li .icon {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.6);
   }
   #header > .inner .top-icons li .icon:before {
     font-size: 1.5em;
