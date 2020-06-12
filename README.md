@@ -65,11 +65,13 @@ This project was built using these technologies.
 * Bootstrap
 * HTML
 * CSS3
-* VsCode
+* Atom :atom:
+* Sass
+* JavaScript
 
 ## Usage
 
-If you want to use it locally [download](https://github.com/euqueme/portfolio/archive/master.zip) or clone the repo with the following command on a linux terminal:
+If you want to use it locally [download](https://github.com/rammazzoti2000/personal_portfolio/archive/development.zip) or clone the repo with the following command on a linux terminal:
 
 ```git clone https://github.com/rammazzoti2000/personal_portfolio.git```
 
