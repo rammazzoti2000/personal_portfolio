@@ -78,7 +78,7 @@ cd to the projects directory and open the index.html in your browser
 <!-- LIVE VERSION -->
 ## Live version
 
-You can see it [here](https://alex-bangau.netlify.app/)
+You can see it [here](https://www.alex-portfolio.org/)
 
 <!-- AUTOMATED TEST -->
 ## Automated Test
