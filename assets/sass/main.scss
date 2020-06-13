@@ -1784,8 +1784,7 @@ $size-header-pad: 4em;
 		/* Main */
 
 			#main {
-				padding: ($size-header-pad * 1.5) $size-header-pad (($size-header-pad * 1.5) - _size(element-margin)) $size-header-pad;
-
+				padding: ($size-header-pad * 1.5) $size-header-pad;
 				> section {
 					margin: ($size-header-pad * 1.5) 0 0 0;
 					padding: ($size-header-pad * 1.5) 0 0 0;
@@ -1794,16 +1793,16 @@ $size-header-pad: 4em;
 
 		/* Poptrox */
 
-			.poptrox-popup {
-				border-radius: 0;
-
-				.nav-next,
-				.nav-previous {
-					&:before {
-						margin-top: -1em;
-					}
-				}
-			}
+			// .poptrox-popup {
+			// 	border-radius: 0;
+			//
+			// 	.nav-next,
+			// 	.nav-previous {
+			// 		&:before {
+			// 			margin-top: -1em;
+			// 		}
+			// 	}
+			// }
 
 	}
 

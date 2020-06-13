@@ -2588,7 +2588,7 @@ body.is-touch .poptrox-popup .closer {
 
   /* Main */
   #main {
-    padding: 2.25em 1.5em 0.25em 1.5em;
+    padding: 2.25em 1.5em;
   }
   #main > section {
     margin: 2.25em 0 0 0;
@@ -2596,13 +2596,6 @@ body.is-touch .poptrox-popup .closer {
   }
 
   /* Poptrox */
-  .poptrox-popup {
-    border-radius: 0;
-  }
-  .poptrox-popup .nav-next:before,
-.poptrox-popup .nav-previous:before {
-    margin-top: -1em;
-  }
 }
 /* XSmall */
 @media screen and (max-width: 480px) {
