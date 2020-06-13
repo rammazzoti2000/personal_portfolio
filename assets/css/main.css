@@ -1827,6 +1827,7 @@ ul.actions .actions-wrapper {
   align-items: baseline;
   align-self: baseline;
   width: 100%;
+  margin-top: 1rem;
 }
 ul.actions .languages {
   display: inline-flex;
@@ -1912,7 +1913,6 @@ ul.actions.fit.stacked {
     -webkit-flex-shrink: 1;
     -ms-flex-shrink: 1;
     flex-shrink: 1;
-    padding: 1em 0 0 0;
     text-align: center;
     width: 100%;
   }
@@ -1921,7 +1921,6 @@ ul.actions.fit.stacked {
   }
   ul.actions:not(.fixed) li:first-child {
     padding-top: 0;
-    margin: 0 20px 16px 0;
   }
   ul.actions:not(.fixed) li input[type=submit],
 ul.actions:not(.fixed) li input[type=reset],
