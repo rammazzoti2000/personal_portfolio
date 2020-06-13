@@ -1748,9 +1748,6 @@ ul {
   margin: 0 0 2em 0;
   padding-left: 1em;
 }
-ul li {
-  padding-left: 0.5em;
-}
 ul.alt {
   list-style: none;
   padding-left: 0;
@@ -1822,7 +1819,6 @@ ul.actions {
   align-items: flex-end;
   cursor: default;
   list-style: none;
-  margin-left: -1em;
   padding-left: 0;
 }
 ul.actions .actions-wrapper {
@@ -1841,15 +1837,17 @@ ul.actions .languages .technology {
   cursor: pointer;
   padding: 3px;
   border-radius: 5px;
-  margin-left: 17px;
+  margin-left: 16px;
 }
 ul.actions .languages .technology:hover {
   background-color: #5cc6a7;
   border-color: #5cc6a7;
   color: #303030;
 }
+ul.actions li:first-child {
+  margin-right: 16px;
+}
 ul.actions li {
-  padding: 0 0 0 1em;
   vertical-align: middle;
 }
 ul.actions.special {
@@ -2188,7 +2186,7 @@ input[type=button]:disabled,
   margin: 0 0 1.5em 0;
 }
 .work-item .art-description {
-  margin: 0 15px;
+  margin: 0 0 0 15px;
   width: 100%;
   display: flex;
   flex-flow: column wrap;
@@ -2321,6 +2319,9 @@ input[type=button]:disabled,
   border-top: 0;
   margin-top: 0;
   padding-top: 0;
+}
+#main > section .article-wrapper {
+  padding: 0;
 }
 
 /* Poptrox */
