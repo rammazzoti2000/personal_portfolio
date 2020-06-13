@@ -2181,9 +2181,6 @@ input[type=button]:disabled,
   width: 100%;
   display: flex;
 }
-.work-item .image {
-  margin: 0 0 1.5em 0;
-}
 .work-item .art-description {
   margin: 0 0 0 15px;
   width: 100%;
