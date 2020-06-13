@@ -1902,7 +1902,7 @@ ul.actions.fit.stacked {
     -webkit-flex-flow: column-reverse wrap;
     -ms-flex-flow: column-reverse wrap;
     flex-flow: column-reverse wrap;
-    margin-left: 0;
+    margin: auto 0;
     width: 100% !important;
   }
   ul.actions:not(.fixed) li {

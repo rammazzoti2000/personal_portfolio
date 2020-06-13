@@ -911,7 +911,7 @@ $size-header-pad: 4em;
 		@include breakpoint('<=xsmall') {
 			&:not(.fixed) {
 				@include vendor('flex-flow', 'column-reverse wrap');
-				margin-left: 0;
+				margin: auto 0;
 				width: 100% !important;
 
 				li {
