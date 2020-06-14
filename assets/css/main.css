@@ -1745,12 +1745,9 @@ ol li {
 
 ul {
   list-style: disc;
-  margin: 0 0 2em 0;
-  padding-left: 1em;
 }
 ul.alt {
   list-style: none;
-  padding-left: 0;
 }
 ul.alt li {
   border-top: solid 2px #d3d3d3;
@@ -1819,7 +1816,6 @@ ul.actions {
   align-items: flex-end;
   cursor: default;
   list-style: none;
-  padding-left: 0;
 }
 ul.actions .actions-wrapper {
   display: flex;
@@ -1901,7 +1897,6 @@ ul.actions.fit.stacked {
     -webkit-flex-flow: column-reverse wrap;
     -ms-flex-flow: column-reverse wrap;
     flex-flow: column-reverse wrap;
-    margin: auto 0;
     width: 100% !important;
   }
   ul.actions:not(.fixed) li {
@@ -1928,13 +1923,6 @@ ul.actions:not(.fixed) li input[type=button],
 ul.actions:not(.fixed) li button,
 ul.actions:not(.fixed) li .button {
     width: 100%;
-  }
-  ul.actions:not(.fixed) li input[type=submit].icon:before,
-ul.actions:not(.fixed) li input[type=reset].icon:before,
-ul.actions:not(.fixed) li input[type=button].icon:before,
-ul.actions:not(.fixed) li button.icon:before,
-ul.actions:not(.fixed) li .button.icon:before {
-    margin-left: -0.5em;
   }
 }
 

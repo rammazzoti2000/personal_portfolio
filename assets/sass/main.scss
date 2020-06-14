@@ -737,8 +737,8 @@ $size-header-pad: 4em;
 
 	ul {
 		list-style: disc;
-		margin: 0 0 _size(element-margin) 0;
-		padding-left: 1em;
+		// margin: 0 0 _size(element-margin) 0;
+		// padding-left: 1em;
 
 		li {
 			// padding-left: 0.5em;
@@ -746,7 +746,7 @@ $size-header-pad: 4em;
 
 		&.alt {
 			list-style: none;
-			padding-left: 0;
+			// padding-left: 0;
 
 			li {
 				border-top: solid 2px _palette(border);
@@ -828,7 +828,7 @@ $size-header-pad: 4em;
 		cursor: default;
 		list-style: none;
 		// margin-left: (_size(element-margin) * -0.5);
-		padding-left: 0;
+		// padding-left: 0;
 
 		.actions-wrapper {
 			display: flex;
@@ -915,7 +915,7 @@ $size-header-pad: 4em;
 		@include breakpoint('<=xsmall') {
 			&:not(.fixed) {
 				@include vendor('flex-flow', 'column-reverse wrap');
-				margin: auto 0;
+				// margin: auto 0;
 				width: 100% !important;
 
 				li {
@@ -942,7 +942,7 @@ $size-header-pad: 4em;
 
 						&.icon {
 							&:before {
-								margin-left: -0.5em;
+								// margin-left: -0.5em;
 							}
 						}
 					}
