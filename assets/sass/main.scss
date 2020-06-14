@@ -700,7 +700,7 @@ $size-header-pad: 4em;
 
 		&.fit {
 			display: block;
-			margin: 0 0 _size(element-margin) 0;
+			// margin: 0 0 _size(element-margin) 0;
 			width: 100%;
 
 			img {
@@ -746,7 +746,7 @@ $size-header-pad: 4em;
 
 		&.alt {
 			list-style: none;
-			// padding-left: 0;
+			padding-left: 0;
 
 			li {
 				border-top: solid 2px _palette(border);
@@ -1190,7 +1190,7 @@ $size-header-pad: 4em;
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 _size(element-margin)+2  0;
 		width: 100%;
 		display: flex;
 

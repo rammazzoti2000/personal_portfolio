@@ -1715,7 +1715,6 @@ input[type=radio] + label:before {
 }
 .image.fit {
   display: block;
-  margin: 0 0 2em 0;
   width: 100%;
 }
 .image.fit img {
@@ -1748,6 +1747,7 @@ ul {
 }
 ul.alt {
   list-style: none;
+  padding-left: 0;
 }
 ul.alt li {
   border-top: solid 2px #d3d3d3;
@@ -2165,7 +2165,7 @@ input[type=button]:disabled,
 
 /* Work Item */
 .work-item {
-  margin: 0 0 2em 0;
+  margin: 0 0 4em 0;
   width: 100%;
   display: flex;
 }
