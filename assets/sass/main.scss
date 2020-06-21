@@ -1066,6 +1066,7 @@ $size-header-pad: 4em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		margin: 0 auto;
 
 		&:hover {
 			border-color: _palette(accent1, bg);

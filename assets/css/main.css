@@ -2022,6 +2022,7 @@ input[type=button],
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
+  margin: 0 auto;
 }
 input[type=submit]:hover,
 input[type=reset]:hover,
