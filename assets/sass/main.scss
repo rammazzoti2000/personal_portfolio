@@ -700,7 +700,7 @@ $size-header-pad: 4em;
 
 		&.fit {
 			display: block;
-			margin: 0 0 _size(element-margin) 0;
+			// margin: 0 0 _size(element-margin) 0;
 			width: 100%;
 
 			img {
@@ -737,11 +737,11 @@ $size-header-pad: 4em;
 
 	ul {
 		list-style: disc;
-		margin: 0 0 _size(element-margin) 0;
-		padding-left: 1em;
+		// margin: 0 0 _size(element-margin) 0;
+		// padding-left: 1em;
 
 		li {
-			padding-left: 0.5em;
+			// padding-left: 0.5em;
 		}
 
 		&.alt {
@@ -827,8 +827,8 @@ $size-header-pad: 4em;
 		align-items: flex-end;
 		cursor: default;
 		list-style: none;
-		margin-left: (_size(element-margin) * -0.5);
-		padding-left: 0;
+		// margin-left: (_size(element-margin) * -0.5);
+		// padding-left: 0;
 
 		.actions-wrapper {
 			display: flex;
@@ -836,6 +836,7 @@ $size-header-pad: 4em;
 	    align-items: baseline;
 	    align-self: baseline;
 			width: 100%;
+			margin-top: 1rem;
 		}
 
 		.languages {
@@ -847,7 +848,7 @@ $size-header-pad: 4em;
 				cursor: pointer;
 				padding: 3px;
 				border-radius: 5px;
-				margin-left: 17px;
+				margin-left: 16px;
 				// background-color: _palette(accent1, bg);
 				// border-color: _palette(accent1, bg);
 				// color: _palette(accent1, fg-bold) !important;
@@ -859,9 +860,12 @@ $size-header-pad: 4em;
 				}
 			}
 		}
+		li:first-child {
+			margin-right: 16px;
+		}
 
 		li {
-			padding: 0 0 0 (_size(element-margin) * 0.5);
+			// padding: 0 0 0 (_size(element-margin) * 0.5);
 			vertical-align: middle;
 		}
 
@@ -911,13 +915,12 @@ $size-header-pad: 4em;
 		@include breakpoint('<=xsmall') {
 			&:not(.fixed) {
 				@include vendor('flex-flow', 'column-reverse wrap');
-				margin-left: 0;
+				// margin: auto 0;
 				width: 100% !important;
 
 				li {
 					@include vendor('flex-grow', '1');
 					@include vendor('flex-shrink', '1');
-					padding: (_size(element-margin) * 0.5) 0 0 0;
 					text-align: center;
 					width: 100%;
 
@@ -927,7 +930,7 @@ $size-header-pad: 4em;
 
 					&:first-child {
 						padding-top: 0;
-						margin: 0 20px 16px 0;
+						// margin: 0 20px 16px 0;
 					}
 
 					input[type="submit"],
@@ -939,7 +942,7 @@ $size-header-pad: 4em;
 
 						&.icon {
 							&:before {
-								margin-left: -0.5em;
+								// margin-left: -0.5em;
 							}
 						}
 					}
@@ -1187,16 +1190,16 @@ $size-header-pad: 4em;
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 _size(element-margin)+2  0;
 		width: 100%;
 		display: flex;
 
-		.image {
-			margin: 0 0 (_size(element-margin) * 0.75) 0;
-		}
+		// .image {
+		// 	margin: 0 0 (_size(element-margin) * 0.75) 0;
+		// }
 
 		.art-description {
-			margin: 0 15px;
+			margin: 0 0 0 15px;
 			width: 100%;
 			display: flex;
 			flex-flow: column wrap;
@@ -1332,6 +1335,30 @@ $size-header-pad: 4em;
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
+			}
+
+			.skills {
+				font-size: 4rem;
+		    display: grid;
+		    grid-template-columns: repeat(6, 1fr);
+		    text-align: center;
+		    grid-row-gap: 32px;
+
+				.technology {
+					cursor: pointer;
+					padding: 10px;
+					border-radius: 5px;
+
+					&:hover {
+						background-color: lighten(_palette(accent1, bg), 5);
+						border-color: lighten(_palette(accent1, bg), 5);
+						color: #303030;
+					}
+				}
+			}
+
+			.article-wrapper {
+				padding: 0;
 			}
 		}
 	}
@@ -1777,26 +1804,29 @@ $size-header-pad: 4em;
 		/* Main */
 
 			#main {
-				padding: ($size-header-pad * 1.5) $size-header-pad (($size-header-pad * 1.5) - _size(element-margin)) $size-header-pad;
-
+				padding: ($size-header-pad * 1.5) $size-header-pad;
 				> section {
 					margin: ($size-header-pad * 1.5) 0 0 0;
 					padding: ($size-header-pad * 1.5) 0 0 0;
+
+					.skills {
+						grid-template-columns: repeat(3, 1fr);
+					}
 				}
 			}
 
 		/* Poptrox */
 
-			.poptrox-popup {
-				border-radius: 0;
-
-				.nav-next,
-				.nav-previous {
-					&:before {
-						margin-top: -1em;
-					}
-				}
-			}
+			// .poptrox-popup {
+			// 	border-radius: 0;
+			//
+			// 	.nav-next,
+			// 	.nav-previous {
+			// 		&:before {
+			// 			margin-top: -1em;
+			// 		}
+			// 	}
+			// }
 
 	}
 

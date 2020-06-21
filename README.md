@@ -58,7 +58,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://rammazzoti2000.github.io/personal_portfolio/)
 
-This project features some of my github projects and is also a clone for the one-pager portfolio by wix.com
+This project represents my personal Portfolio and features some of my github projects
 
 ### Built With
 This project was built using these technologies.
@@ -66,8 +66,6 @@ This project was built using these technologies.
 * HTML
 * CSS3
 * Atom :atom:
-* Sass
-* JavaScript
 
 ## Usage
 
