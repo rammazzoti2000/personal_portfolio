@@ -1442,6 +1442,18 @@ header.major h2 {
 form {
   margin: 0 0 2em 0;
 }
+form .form-wrapper {
+  margin-left: 0 !important;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+form .form-wrapper .input {
+  padding-left: 0 !important;
+}
+form .form-wrapper .inline-input {
+  width: 49%;
+}
 
 label {
   color: #fff;
@@ -2615,6 +2627,10 @@ body.is-touch .poptrox-popup .closer {
     display: none;
   }
   #header > .inner .top-icons {
+    width: 100%;
+  }
+
+  #main .inline-input {
     width: 100%;
   }
 
