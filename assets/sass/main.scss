@@ -1046,7 +1046,8 @@ $size-header-pad: 4em;
 
 	input[type="submit"],
 	input[type="reset"],
-	input[type="button"] {
+	input[type="button"],
+	.button {
 		@include vendor('appearance', 'none');
 		@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
 		background-color: transparent;
@@ -1054,7 +1055,7 @@ $size-header-pad: 4em;
 		border: solid 3px _palette(border);
 		color: _palette(fg-bold) !important;
 		cursor: pointer;
-		display: block;
+		display: inline-block;
 		font-weight: _font(weight-bold);
 		font-size: larger;
 		height: 3.15em;
@@ -1065,7 +1066,6 @@ $size-header-pad: 4em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		margin: 0 auto;
 
 		&:hover {
 			border-color: _palette(accent1, bg);
