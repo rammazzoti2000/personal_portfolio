@@ -1996,8 +1996,7 @@ table.alt tfoot {
 /* Button */
 input[type=submit],
 input[type=reset],
-input[type=button],
-.button {
+input[type=button] {
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -2026,69 +2025,59 @@ input[type=button],
 }
 input[type=submit]:hover,
 input[type=reset]:hover,
-input[type=button]:hover,
-.button:hover {
+input[type=button]:hover {
   border-color: #49bf9d;
   color: #49bf9d !important;
 }
 input[type=submit]:active,
 input[type=reset]:active,
-input[type=button]:active,
-.button:active {
+input[type=button]:active {
   background-color: rgba(73, 191, 157, 0.1);
   border-color: #49bf9d;
   color: #49bf9d !important;
 }
 input[type=submit].icon,
 input[type=reset].icon,
-input[type=button].icon,
-.button.icon {
+input[type=button].icon {
   padding-left: 1.35em;
 }
 input[type=submit].icon:before,
 input[type=reset].icon:before,
-input[type=button].icon:before,
-.button.icon:before {
+input[type=button].icon:before {
   margin-right: 0.5em;
 }
 input[type=submit].fit,
 input[type=reset].fit,
-input[type=button].fit,
-.button.fit {
+input[type=button].fit {
   min-width: 0;
   width: 100%;
 }
 input[type=submit].small,
 input[type=reset].small,
-input[type=button].small,
-.button.small {
+input[type=button].small {
   font-size: 0.8em;
 }
 input[type=submit].large,
 input[type=reset].large,
-input[type=button].large,
-.button.large {
+input[type=button].large {
   font-size: 1.35em;
 }
 input[type=submit].primary,
 input[type=reset].primary,
-input[type=button].primary,
-.button.primary {
+input[type=button].primary {
   background-color: #49bf9d;
   border-color: #49bf9d;
   color: #ffffff !important;
 }
 input[type=submit].primary:hover,
 input[type=reset].primary:hover,
-input[type=button].primary:hover,
-.button.primary:hover {
+input[type=button].primary:hover {
   background-color: #5cc6a7;
   border-color: #5cc6a7;
 }
 input[type=submit].primary:active,
 input[type=reset].primary:active,
-input[type=button].primary:active,
-.button.primary:active {
+input[type=button].primary:active {
   background-color: #3eb08f;
   border-color: #3eb08f;
 }
@@ -2096,9 +2085,7 @@ input[type=submit].disabled, input[type=submit]:disabled,
 input[type=reset].disabled,
 input[type=reset]:disabled,
 input[type=button].disabled,
-input[type=button]:disabled,
-.button.disabled,
-.button:disabled {
+input[type=button]:disabled {
   background-color: #e7e7e7 !important;
   border-color: #e7e7e7 !important;
   color: #b2b2b2 !important;
