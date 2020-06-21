@@ -1055,7 +1055,7 @@ $size-header-pad: 4em;
 		border: solid 3px _palette(border);
 		color: _palette(fg-bold) !important;
 		cursor: pointer;
-		display: inline-flex;
+		display: block;
 		font-weight: _font(weight-bold);
 		font-size: larger;
 		height: 3.15em;
