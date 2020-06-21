@@ -403,6 +403,21 @@ $size-header-pad: 4em;
 
 	form {
 		margin: 0 0 _size(element-margin) 0;
+
+		.form-wrapper {
+			margin-left: 0 !important;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
+
+			.input {
+				padding-left: 0 !important;
+			}
+
+			.inline-input {
+				width: 49%;
+			}
+		}
 	}
 
 	label {
@@ -1847,6 +1862,12 @@ $size-header-pad: 4em;
 					}
 				}
 				>.inner .top-icons {
+					width: 100%;
+				}
+			}
+
+			#main {
+				.inline-input {
 					width: 100%;
 				}
 			}
