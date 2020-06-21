@@ -1337,6 +1337,26 @@ $size-header-pad: 4em;
 				padding-top: 0;
 			}
 
+			.skills {
+				font-size: 4rem;
+		    display: grid;
+		    grid-template-columns: repeat(6, 1fr);
+		    text-align: center;
+		    grid-row-gap: 32px;
+
+				.technology {
+					cursor: pointer;
+					padding: 10px;
+					border-radius: 5px;
+
+					&:hover {
+						background-color: lighten(_palette(accent1, bg), 5);
+						border-color: lighten(_palette(accent1, bg), 5);
+						color: #303030;
+					}
+				}
+			}
+
 			.article-wrapper {
 				padding: 0;
 			}
@@ -1788,6 +1808,10 @@ $size-header-pad: 4em;
 				> section {
 					margin: ($size-header-pad * 1.5) 0 0 0;
 					padding: ($size-header-pad * 1.5) 0 0 0;
+
+					.skills {
+						grid-template-columns: repeat(3, 1fr);
+					}
 				}
 			}
 

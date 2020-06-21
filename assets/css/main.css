@@ -2304,6 +2304,23 @@ input[type=button]:disabled,
   margin-top: 0;
   padding-top: 0;
 }
+#main > section .skills {
+  font-size: 4rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  grid-row-gap: 32px;
+}
+#main > section .skills .technology {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+#main > section .skills .technology:hover {
+  background-color: #5cc6a7;
+  border-color: #5cc6a7;
+  color: #303030;
+}
 #main > section .article-wrapper {
   padding: 0;
 }
@@ -2581,6 +2598,9 @@ body.is-touch .poptrox-popup .closer {
   #main > section {
     margin: 2.25em 0 0 0;
     padding: 2.25em 0 0 0;
+  }
+  #main > section .skills {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   /* Poptrox */
