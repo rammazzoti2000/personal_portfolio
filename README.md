@@ -62,6 +62,7 @@ This project represents my personal Portfolio and features some of my github pro
 
 ### Built With
 This project was built using these technologies.
+* JavaScript
 * Bootstrap
 * HTML
 * CSS3
