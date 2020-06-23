@@ -1827,6 +1827,10 @@ $size-header-pad: 4em;
 					.skills {
 						grid-template-columns: repeat(3, 1fr);
 					}
+
+					.wide-button {
+						margin-right: 0;
+					}
 				}
 			}
 

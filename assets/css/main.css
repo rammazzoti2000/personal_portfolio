@@ -2614,6 +2614,9 @@ body.is-touch .poptrox-popup .closer {
   #main > section .skills {
     grid-template-columns: repeat(3, 1fr);
   }
+  #main > section .wide-button {
+    margin-right: 0;
+  }
 
   /* Poptrox */
 }
