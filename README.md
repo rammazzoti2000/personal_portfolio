@@ -111,13 +111,13 @@ Give a :star: if you like this project!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/rammazzoti2000/personal_portfolio.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/rammazzoti2000/personal_portfolio.svg?styles/default/yes.svg
 [contributors-url]: https://github.com/rammazzoti2000/personal_portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/rammazzoti2000/personal_portfolio.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/rammazzoti2000/personal_portfolio.svg?styles/default/yes.svg
 [forks-url]: https://github.com/rammazzoti2000/personal_portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/rammazzoti2000/personal_portfolio.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/rammazzoti2000/personal_portfolio.svg?styles/default/yes.svg
 [stars-url]: https://github.com/rammazzoti2000/personal_portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/rammazzoti2000/personal_portfolio.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/rammazzoti2000/personal_portfolio.svg?styles/default/yes.svg
 [issues-url]: https://github.com/rammazzoti2000/personal_portfolio/issues
 [netlify-shield]: https://api.netlify.com/api/v1/badges/f88e03cf-ec7b-4593-ac9b-54e4dabffa33/deploy-status
 [netlify-url]: https://app.netlify.com/sites/alex-bangau/deploys
