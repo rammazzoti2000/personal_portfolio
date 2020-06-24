@@ -18,6 +18,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
+[![Netlify][netlify-shield]][netlify-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -118,4 +119,6 @@ Give a :star: if you like this project!
 [stars-url]: https://github.com/rammazzoti2000/personal_portfolio/stargazers
 [issues-shield]: https://img.shields.io/github/issues/rammazzoti2000/personal_portfolio.svg?style=flat-square
 [issues-url]: https://github.com/rammazzoti2000/personal_portfolio/issues
+[netlify-shield]: https://api.netlify.com/api/v1/badges/f88e03cf-ec7b-4593-ac9b-54e4dabffa33/deploy-status
+[netlify-url]: https://app.netlify.com/sites/alex-bangau/deploys
 [product-screenshot]: images/screenshot.png
