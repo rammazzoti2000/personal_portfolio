@@ -2445,7 +2445,7 @@ body.is-touch .image.thumb:after {
   display: none !important;
 }
 body.is-touch #header {
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: auto, cover;
 }
 
