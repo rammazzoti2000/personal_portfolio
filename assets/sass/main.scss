@@ -1255,7 +1255,7 @@ $size-header-pad: 4em;
 		background-position:	top left,	top left;
 		background-repeat:	repeat,		no-repeat;
 		background-size:	auto,	150%;
-		box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.6);
+		// box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.6);
 		color: _palette(accent2, fg);
 		height: 100%;
 		left: 0;
@@ -1309,7 +1309,7 @@ $size-header-pad: 4em;
 			// opacity .3s .25s ease-out;
 			// will-change: transform, opacity;
 		}
-		// 
+		//
 		// .image.avatar.is-visible {
 		// 	opacity: 1;
 		// 	transform: rotateZ(0deg);
@@ -1709,7 +1709,7 @@ $size-header-pad: 4em;
 				top: auto;
 				width: 100%;
 				display: block;
-				box-shadow: inset 0px -26px 17px -17px rgba(0, 0, 0, 0.8);
+				// box-shadow: inset 0px -26px 17px -17px rgba(0, 0, 0, 0.8);
 
 				h1 {
 					font-size: 1.75em;
@@ -1756,14 +1756,14 @@ $size-header-pad: 4em;
 				background-position:	top left,						bottom center;
 				background-repeat:		repeat,							no-repeat;
 				background-size:		auto,							cover;
-				box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.6);
+				// box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.6);
 				bottom: auto;
 				left: auto;
 				padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5) $size-header-pad;
 				position: relative;
 				text-align: center;
 				width: 100%;
-				box-shadow: inset 0px 10px 14px 1px rgba(0, 0, 0, 1);
+				// box-shadow: inset 0px 10px 14px 1px rgba(0, 0, 0, 1);
 
 				.icons {
 					margin: 0 0 (_size(element-margin) * 0.5) 0;

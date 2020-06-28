@@ -2229,7 +2229,6 @@ input[type=button]:disabled,
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
-  box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.6);
   color: rgba(255, 255, 255, 0.6);
   height: 100%;
   left: 0;
@@ -2501,7 +2500,6 @@ body.is-touch #header {
     top: auto;
     width: 100%;
     display: block;
-    box-shadow: inset 0px -26px 17px -17px rgba(0, 0, 0, 0.8);
   }
   #header h1 {
     font-size: 1.75em;
@@ -2541,14 +2539,12 @@ body.is-touch #header {
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
-    box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.6);
     bottom: auto;
     left: auto;
     padding: 4em 4em 6em 4em;
     position: relative;
     text-align: center;
     width: 100%;
-    box-shadow: inset 0px 10px 14px 1px black;
   }
   #footer .icons {
     margin: 0 0 1em 0;
