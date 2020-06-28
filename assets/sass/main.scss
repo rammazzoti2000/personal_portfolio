@@ -417,6 +417,14 @@ $size-header-pad: 4em;
 			.inline-input {
 				width: 49%;
 			}
+
+			.actions {
+				padding: 1.5em 0 0 !important;
+
+				.wide-button {
+					margin: 0;
+				}
+			}
 		}
 	}
 
@@ -1421,7 +1429,6 @@ $size-header-pad: 4em;
 					transform: rotateZ(0deg);
 				}
 			}
-
 		}
 	}
 

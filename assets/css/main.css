@@ -1454,6 +1454,12 @@ form .form-wrapper .input {
 form .form-wrapper .inline-input {
   width: 49%;
 }
+form .form-wrapper .actions {
+  padding: 1.5em 0 0 !important;
+}
+form .form-wrapper .actions .wide-button {
+  margin: 0;
+}
 
 label {
   color: #fff;
