@@ -1593,8 +1593,8 @@ $size-header-pad: 4em;
 		}
 
 		#header {
-			background-attachment:	scroll;
-			background-size:		auto, cover;
+			background-attachment:	fixed;
+			background-size:	auto, cover;
 		}
 
 		// .poptrox-popup {
