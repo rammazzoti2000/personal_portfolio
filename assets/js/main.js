@@ -1,4 +1,3 @@
-
 (function($) {
 
 	var $window = $(window),
@@ -67,9 +66,12 @@
 
 				breakpoints.on('<=medium', function() {
 
-					$window.off('scroll.strata_parallax');
-					$header.css('background-position', '');
+					// $window.off('scroll.strata_parallax');
+					// $header.css('background-position', '');
 
+					$window.on('scroll.strata_parallax', function() {
+						$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+					});
 				});
 
 				breakpoints.on('>medium', function() {
