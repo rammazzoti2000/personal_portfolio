@@ -1748,6 +1748,7 @@ input[type=radio] + label:before {
 .image.avatar img {
   border-radius: 100%;
   width: 100%;
+  border: 3px solid;
 }
 
 /* List */
@@ -2274,7 +2275,7 @@ input[type=button]:disabled,
 }
 #header .image.avatar {
   margin: 0 0 1em 0;
-  width: 7.25em;
+  width: 8.25em;
   opacity: 0;
   transform: translateY(2em);
   transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1), opacity 0.3s 0.25s ease-out;
@@ -2503,7 +2504,7 @@ body.is-touch #header {
 
   /* Header */
   #header {
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: top left, center center;
     background-size: auto, cover;
     left: auto;
@@ -2513,6 +2514,7 @@ body.is-touch #header {
     top: auto;
     width: 100%;
     display: block;
+    box-shadow: inset 0px -26px 17px -17px rgba(0, 0, 0, 0.8);
   }
   #header h1 {
     font-size: 1.75em;
@@ -2546,7 +2548,7 @@ body.is-touch #header {
 
   /* Footer */
   #footer {
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-color: #1f1815;
     background-image: url("images/overlay.png"), url("../../images/bg.jpg");
     background-position: top left, bottom center;
@@ -2559,6 +2561,7 @@ body.is-touch #header {
     position: relative;
     text-align: center;
     width: 100%;
+    box-shadow: inset 0px 10px 14px 1px black;
   }
   #footer .icons {
     margin: 0 0 1em 0;
