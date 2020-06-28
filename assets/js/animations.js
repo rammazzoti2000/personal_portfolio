@@ -38,3 +38,33 @@ function isElementInViewport(el) {
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
   );
 }
+
+$(function() {
+  var documentEl = $(document),
+    fadeElem = $("#header");
+
+  documentEl.on('scroll', function() {
+    var currScrollPos = documentEl.scrollTop();
+
+    fadeElem.each(function() {
+      var $this = $(this),
+      elemOffsetTop = $this.offset().top;
+      if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 -(currScrollPos-elemOffsetTop)/1000);
+    });
+  });
+});
+
+$(function() {
+  var documentElFooter = $(document),
+    footerElem = $("#footer");
+
+  documentElFooter.on('scroll', function() {
+    var footerScrollPos = documentElFooter.scrollTop();
+
+    footerElem.each(function() {
+      var $this = $(this),
+      footerOffsetTop = $this.offset().top;
+      if (footerScrollPos < footerOffsetTop) $this.css('opacity', 1.38 +(footerScrollPos-footerOffsetTop)/1000);
+    });
+  });
+});
