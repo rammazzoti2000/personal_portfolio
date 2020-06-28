@@ -1454,6 +1454,12 @@ form .form-wrapper .input {
 form .form-wrapper .inline-input {
   width: 49%;
 }
+form .form-wrapper .actions {
+  padding: 1.5em 0 0 !important;
+}
+form .form-wrapper .actions .wide-button {
+  margin: 0;
+}
 
 label {
   color: #fff;
@@ -2260,10 +2266,23 @@ input[type=button]:disabled,
   font-size: 1.35em;
   line-height: 1.75em;
   margin: 0;
+  opacity: 0;
+  transition: opacity 0.5s 0.25s ease-out;
+}
+#header h1.is-visible {
+  opacity: 1;
 }
 #header .image.avatar {
   margin: 0 0 1em 0;
   width: 7.25em;
+  opacity: 0;
+  transform: translateY(2em);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1), opacity 0.3s 0.25s ease-out;
+  will-change: transform, opacity;
+}
+#header .image.avatar.is-visible {
+  opacity: 1;
+  transform: rotateZ(0deg);
 }
 
 /* Footer */
@@ -2316,12 +2335,27 @@ input[type=button]:disabled,
   margin-top: 0;
   padding-top: 0;
 }
+#main > section h2 {
+  opacity: 0;
+  transition: opacity 0.5s 0.25s ease-out;
+}
+#main > section h2.is-visible {
+  opacity: 1;
+}
 #main > section .skills {
   font-size: 4rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   text-align: center;
   grid-row-gap: 32px;
+  opacity: 0;
+  transform: translateY(1em);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1), opacity 0.3s 0.25s ease-out;
+  will-change: transform, opacity;
+}
+#main > section .skills.is-visible {
+  opacity: 1;
+  transform: rotateZ(0deg);
 }
 #main > section .skills .technology {
   cursor: pointer;
@@ -2335,6 +2369,14 @@ input[type=button]:disabled,
 }
 #main > section .article-wrapper {
   padding: 0;
+  opacity: 0;
+  transform: translateY(1.5em);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1), opacity 0.3s 0.25s ease-out;
+  will-change: transform, opacity;
+}
+#main > section .article-wrapper.is-visible {
+  opacity: 1;
+  transform: rotateZ(0deg);
 }
 
 /* Poptrox */
@@ -2404,11 +2446,6 @@ body.is-touch .image.thumb:after {
 body.is-touch #header {
   background-attachment: scroll;
   background-size: auto, cover;
-}
-body.is-touch .poptrox-popup .nav-next,
-body.is-touch .poptrox-popup .nav-previous,
-body.is-touch .poptrox-popup .closer {
-  opacity: 1 !important;
 }
 
 /* XLarge */
