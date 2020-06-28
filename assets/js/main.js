@@ -11,7 +11,7 @@
 				parallax: true,
 
 			// Parallax factor (lower = more intense, higher = less intense).
-				parallaxFactor: 10
+				parallaxFactor: 6
 
 		};
 
@@ -66,9 +66,12 @@
 
 				breakpoints.on('<=medium', function() {
 
-					$window.off('scroll.strata_parallax');
-					$header.css('background-position', '');
+					// $window.off('scroll.strata_parallax');
+					// $header.css('background-position', '');
 
+					$window.on('scroll.strata_parallax', function() {
+						$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+					});
 				});
 
 				breakpoints.on('>medium', function() {
