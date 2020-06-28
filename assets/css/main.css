@@ -2229,6 +2229,7 @@ input[type=button]:disabled,
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
+  box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.6);
   color: rgba(255, 255, 255, 0.6);
   height: 100%;
   left: 0;
@@ -2500,6 +2501,7 @@ body.is-touch #header {
     top: auto;
     width: 100%;
     display: block;
+    box-shadow: none;
   }
   #header h1 {
     font-size: 1.75em;

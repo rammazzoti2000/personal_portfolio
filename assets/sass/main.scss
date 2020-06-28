@@ -1255,7 +1255,7 @@ $size-header-pad: 4em;
 		background-position:	top left,	top left;
 		background-repeat:	repeat,		no-repeat;
 		background-size:	auto,	150%;
-		// box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.6);
+		box-shadow: 1px 0px 7px 3px rgba(0, 0, 0, 0.6);
 		color: _palette(accent2, fg);
 		height: 100%;
 		left: 0;
@@ -1709,6 +1709,7 @@ $size-header-pad: 4em;
 				top: auto;
 				width: 100%;
 				display: block;
+				box-shadow: none;
 				// box-shadow: inset 0px -26px 17px -17px rgba(0, 0, 0, 0.8);
 
 				h1 {
