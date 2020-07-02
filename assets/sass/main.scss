@@ -1259,7 +1259,7 @@ $size-header-pad: 4em;
 		color: _palette(accent2, fg);
 		height: 100%;
 		left: 0;
-		padding: ($size-header-pad * 2) $size-header-pad;
+		padding: ($size-header-pad + 2) $size-header-pad ($size-header-pad - 2);
 		position: fixed;
 		text-align: right;
 		top: 0;

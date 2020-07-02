@@ -2233,7 +2233,7 @@ input[type=button]:disabled,
   color: rgba(255, 255, 255, 0.6);
   height: 100%;
   left: 0;
-  padding: 8em 4em;
+  padding: 6em 4em 2em;
   position: fixed;
   text-align: right;
   top: 0;
