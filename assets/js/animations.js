@@ -39,32 +39,45 @@ function isElementInViewport(el) {
   );
 }
 
-$(function() {
-  var documentEl = $(document),
-    fadeElem = $("#header");
+// $(function() {
+//   var documentEl = $(document),
+//     fadeElem = $("#header");
+//
+//   documentEl.on('scroll', function() {
+//     var currScrollPos = documentEl.scrollTop();
+//
+//     fadeElem.each(function() {
+//       var $this = $(this),
+//       elemOffsetTop = $this.offset().top;
+//       if (currScrollPos >= elemOffsetTop) $this.css('opacity', 1 -(currScrollPos-elemOffsetTop)/600);
+//     });
+//   });
+// });
 
-  documentEl.on('scroll', function() {
-    var currScrollPos = documentEl.scrollTop();
+// function CheckScroll(el) {
+//     var topVal = el.outerHeight(true);
+//     var bottom_of_object = el.offset().top + topVal;
+//     var top_of_window = $(window).scrollTop();
+//     var amountOff = bottom_of_object - top_of_window;
+//     var opacity = amountOff / topVal;
+//     el.find('.inner').css('opacity',opacity);
+// }
+//
+// $(window).scroll(function(){
+//     CheckScroll($('#header'));
+// });
 
-    fadeElem.each(function() {
-      var $this = $(this),
-      elemOffsetTop = $this.offset().top;
-      if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 -(currScrollPos-elemOffsetTop)/1000);
-    });
-  });
-});
-
-$(function() {
-  var documentElFooter = $(document),
-    footerElem = $("#footer");
-
-  documentElFooter.on('scroll', function() {
-    var footerScrollPos = documentElFooter.scrollTop();
-
-    footerElem.each(function() {
-      var $this = $(this),
-      footerOffsetTop = $this.offset().top;
-      if (footerScrollPos < footerOffsetTop) $this.css('opacity', 1.38 +(footerScrollPos-footerOffsetTop)/1000);
-    });
-  });
-});
+// $(function() {
+//   var documentElFooter = $(document),
+//     footerElem = $("#footer");
+//
+//   documentElFooter.on('scroll', function() {
+//     var footerScrollPos = documentElFooter.scrollTop();
+//
+//     footerElem.each(function() {
+//       var $this = $(this),
+//       footerOffsetTop = $this.offset().top;
+//       if (footerScrollPos < footerOffsetTop) $this.css('opacity', 1.38 +(footerScrollPos-footerOffsetTop)/900);
+//     });
+//   });
+// });
