@@ -66,12 +66,12 @@
 
 				breakpoints.on('<=medium', function() {
 
-					// $window.off('scroll.strata_parallax');
+					$window.off('scroll.strata_parallax');
 					// $header.css('background-position', '');
 
-					$window.on('scroll.strata_parallax', function() {
-						$header.css('background-position', 'center ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
-					});
+					// $window.on('scroll.strata_parallax', function() {
+					// 	$header.css('background-position', 'center ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+					// });
 				});
 
 				breakpoints.on('>medium', function() {
