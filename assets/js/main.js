@@ -70,7 +70,7 @@
 					// $header.css('background-position', '');
 
 					$window.on('scroll.strata_parallax', function() {
-						$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+						$header.css('background-position', 'center ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
 					});
 				});
 

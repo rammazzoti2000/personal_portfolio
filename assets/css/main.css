@@ -2492,7 +2492,7 @@ body.is-touch #header {
   /* Header */
   #header {
     background-attachment: fixed;
-    background-position: top left, center center;
+    background-position: center, center center;
     background-size: auto, cover;
     left: auto;
     padding: 6em 4em;
