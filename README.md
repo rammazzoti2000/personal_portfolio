@@ -24,7 +24,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/rammazzoti2000/personal_portfolio">
-    <img src="images/microverse.png" alt="Logo" width="80" height="80">
+    <img src="../images/microverse.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Personal Portfolio</h3>
@@ -63,29 +63,49 @@ This project represents my personal Portfolio and features some of my github pro
 
 ### Built With
 This project was built using these technologies.
-* JavaScript
-* Bootstrap
+* React
+* ES6
+* Node.js
 * HTML
 * CSS3
-* Atom :atom:
+* VsCode
+* Netlify Forms
 
 ## Usage
 
-If you want to use it locally [download](https://github.com/rammazzoti2000/personal_portfolio/archive/development.zip) or clone the repo with the following command on a linux terminal:
+To have this app on your pc, you need to:
+* [download](https://github.com/rammazzoti2000/personal_portfolio/archive/development.zip) or clone this repo:
+  - Clone with SSH:
+  ```
+    git@github.com:rammazzoti2000/personal_portfolio.git
+  ```
+  - Clone with HTTPS
+  ```
+    https://github.com/rammazzoti2000/personal_portfolio.git
+  ```
 
-```git clone https://github.com/rammazzoti2000/personal_portfolio.git```
+* In the project directory, you can run:
 
-cd to the projects directory and open the index.html in your browser
+  - `$ npm install` - installs all the dependencies required by the project
+
+  - `$ npm start` - runs the app in the development mode:
+    - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    - The page will reload if you make edits.
+    - You will also see any lint errors in the console.
+
+  - `$ npm run build`
+    - Builds the app for production to the `build` folder.
+    - It correctly bundles React in production mode and optimizes the build for the best performance.
+    - The build is minified and the filenames include the hashes.
+    - Your app is ready to be deployed!
+
+## Automated Test
+  > There are no Automated Test for this project
 
 <!-- LIVE VERSION -->
 ## Live version
 
 You can see it [here](https://www.alex-portfolio.org/)
-
-<!-- AUTOMATED TEST -->
-## Automated Test
-
-> There are no Automated Test for this project yet
 
 <!-- CONTACT -->
 ## Author
@@ -121,4 +141,4 @@ Give a :star: if you like this project!
 [issues-url]: https://github.com/rammazzoti2000/personal_portfolio/issues
 [netlify-shield]: https://api.netlify.com/api/v1/badges/f88e03cf-ec7b-4593-ac9b-54e4dabffa33/deploy-status
 [netlify-url]: https://app.netlify.com/sites/alex-bangau/deploys
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: ../images/screenshot.png
