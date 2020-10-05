@@ -24,7 +24,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/rammazzoti2000/personal_portfolio">
-    <img src="../images/microverse.png" alt="Logo" width="80" height="80">
+    <img src="public/images/microverse.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Personal Portfolio</h3>
@@ -127,7 +127,8 @@ Give a :star: if you like this project!
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Microverse](https://www.microverse.org/)
-* [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [SmartMockups](https://smartmockups.com/)
+* [Netlify](https://www.netlify.com/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -141,4 +142,8 @@ Give a :star: if you like this project!
 [issues-url]: https://github.com/rammazzoti2000/personal_portfolio/issues
 [netlify-shield]: https://api.netlify.com/api/v1/badges/f88e03cf-ec7b-4593-ac9b-54e4dabffa33/deploy-status
 [netlify-url]: https://app.netlify.com/sites/alex-bangau/deploys
-[product-screenshot]: ../images/screenshot.png
+[product-screenshot]: public/images/screenshot.png
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
