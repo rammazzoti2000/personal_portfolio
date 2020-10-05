@@ -1,6 +1,37 @@
 import React, { Component } from 'react';
 
+const encode = (data) => {
+   return Object.keys(data)
+       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+       .join("&");
+ }
+
 class Contact extends Component {
+   constructor(props) {
+      super(props);
+      this.state = {
+         name: '',
+         email: '',
+         message: '',
+      }
+   }
+
+   handleSubmit = e => {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact-me", ...this.state })
+      })
+        .then(() => alert("Success!"))
+        .catch(error => alert(error));
+
+      e.preventDefault();
+    };
+
+   handleChange = e => this.setState({
+      [e.target.name]: e.target.value,
+   });
+
   render() {
 
     if(this.props.data){
@@ -27,16 +58,34 @@ class Contact extends Component {
 
          <div className="row">
             <div className="eight columns">
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-                  <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" required  onChange={this.handleChange}/>
-                  </div>
+               <form onSubmit={this.handleSubmit}>
+					        <fieldset>
+                    <div>
+                      <label htmlFor="contactName">Name <span className="required">*</span></label>
+                      <input
+                                type="text"
+                                defaultValue=""
+                                size="35"
+                                id="contactName"
+                                name="name"
+                                value={this.state.name}
+                                required
+                                onChange={this.handleChange}
+                            />
+                          </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" required  onChange={this.handleChange}/>
+						   <input
+                        type="text"
+                        defaultValue=""
+                        size="35"
+                        id="contactEmail"
+                        name="email"
+                        value={this.state.email}
+                        required
+                        onChange={this.handleChange}
+                     />
                   </div>
 
                   <div>
@@ -46,11 +95,20 @@ class Contact extends Component {
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" required ></textarea>
+                     <textarea
+                        cols="50"
+                        rows="15"
+                        id="contactMessage"
+                        name="message"
+                        value={this.state.message}
+                        required
+                        onChange={this.handleChange}
+                     >
+                     </textarea>
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button type="submit" className="submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
@@ -87,3 +145,61 @@ class Contact extends Component {
 }
 
 export default Contact;
+
+// const encode = (data) => {
+//   return Object.keys(data)
+//       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+//       .join("&");
+// }
+
+// class Contact extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = { name: "", email: "", message: "" };
+//   }
+
+//   /* Here’s the juicy bit for posting the form submission */
+
+//   handleSubmit = e => {
+//     fetch("/", {
+//       method: "POST",
+//       headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//       body: encode({ "form-name": "contact", ...this.state })
+//     })
+//       .then(() => alert("Success!"))
+//       .catch(error => alert(error));
+
+//     e.preventDefault();
+//   };
+
+//   handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
+//   render() {
+//     const { name, email, message } = this.state;
+//     return (
+//       <form onSubmit={this.handleSubmit} name="contact-me">
+//         <p>
+//           <label>
+//             Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+//           </label>
+//         </p>
+//         <p>
+//           <label>
+//             Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+//           </label>
+//         </p>
+//         <p>
+//           <label>
+//             Message: <textarea name="message" value={message} onChange={this.handleChange} />
+//           </label>
+//         </p>
+//         <p>
+//           <button type="submit">Send</button>
+//         </p>
+//       </form>
+//     );
+//   }
+// }
+
+
+// export default Contact;

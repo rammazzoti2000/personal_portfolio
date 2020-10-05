@@ -47,10 +47,15 @@
   <body>
     <!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKBJKSQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <form name="contact-me" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+
     <div id="root"></div>
-
-
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
