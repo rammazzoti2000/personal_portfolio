@@ -269,6 +269,7 @@
 
    section .skills {
       grid-template-columns: repeat(3, 0fr);
+      justify-content: center;	   
       font-size: 7.4rem;
    }
 
