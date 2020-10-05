@@ -1,39 +1,124 @@
-# React JS Resume Web App Template      
-![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true "ReactJS Resume Website Template")
-### <a href="https://react-resume-template.herokuapp.com/">LIVE DEMO</a> 
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-## Description
-This is a ReactJS based personal resume website template. I have built this by following a Udemy course (credits below) and by beginning with the Ceevee template by Styleshout (credits also below), and breaking up their template into isolated React components. Data is fed directly from a JSON File. This means that in its final form, it can be customized and used by anybody simply by filling in their own personal info into the JSON file and the changes will be dynamically fed into the site. If you would like to use this template for your own personal resume website, read on to learn how to build your own copy.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
+[![Netlify][netlify-shield]][netlify-url]
 
-## Make it Your Own!
-### 1. Make sure you have what you need
-To build this website, you will need to have Node >=6 downloaded and installed on your machine. If you don't already have it, you can get it <a href="https://nodejs.org/en/download/">HERE</a>
-### 2. Build a Create-React-App
-Next, you will build the initial application using a handy tool called Create-React-App. This allows you to get up and running with a React app without the headache of setting up build-tool configurations. Go <a href="https://reactjs.org/docs/installation.html">HERE</a> to get started.
-When the app building is finished run `cd yourappname` and run `npm start` to test it out.
-Hit ctrl+c in the terminal when you want to stop the server that the above command starts.
-For this project we will also need to install JQuery and ReactGA, do this by running `npm install jquery --save` and `npm install react-ga --save` in your terminal while inside your project folder. YOU MUST RUN THESE COMMANDS.
-### 3. Download the template
-Once you have a React app up and running by following the steps in the above link, download my code by hitting the green "clone or download" button above and hit download zip. All you will have to do now is replace the "public" and "src" folders of your newly built app with mine that you just downloaded. If you run `npm start` now, you should see that your app renders the same as the one at the live demo link above.
-### 4. Replace images and fonts
-Next, you will want to replace the images, and fonts if you like, with your own. All you have to do is replace the images at public/images/header-background.jpg, public/images/testimonials-bg.jpg and public/favicon.ico with your own. <em>YOU MUST KEEP THE SAME NAMES ON THE IMAGES.</em>  
-### 5. Fill in your personal info
-To populate the website with all of your own data, open the public/resumeData.json file and simply replace the data in there with your own. Images for the porfolio section are to be put in the public/images/portfolio folder.
-### 6. Make any styling changes you would like
-Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling changes, feel free!
-### 7. Enjoy your new Resume Website
-When you're all done, run `npm start` again and you'll see your new personal resume website! Congratulations!
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/rammazzoti2000/personal_portfolio">
+    <img src="images/microverse.png" alt="Logo" width="80" height="80">
+  </a>
 
+  <h3 align="center">Personal Portfolio</h3>
 
-## Credits
-##### Udemy Course
-<a href="https://www.udemy.com/projects-in-reactjs-the-complete-react-learning-course/learn/v4/overview">Projects in ReactJS: The Complete React Learning Course by Eduonix</a>
+  <p align="center">
+    This project is part of the Microverse Professional skills curriculum!
+    <br />
+    <a href="https://github.com/rammazzoti2000/personal_portfolio"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://www.alex-portfolio.org/">View Demo</a>
+    ·
+    <a href="https://github.com/rammazzoti2000/personal_portfolioi/ssues">Report Bug</a>
+    ·
+    <a href="https://github.com/rammazzoti2000/personal_portfolio/issues">Request Feature</a>
+  </p>
+</p>
 
-#### HTML Design Template
-<a href="https://www.styleshout.com/free-templates/ceevee/">Ceevee Template by Styleshout</a>
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-##### Header photo credit
-<a href="https://unsplash.com/@mischievous_penguins?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Casey Horner</a>
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Usage](#usage)
+* [Automated Test](#automated-test)
+* [Author](#author)
+* [Contributing](#contributing)
+* [Acknowledgements](#acknowledgements)
 
-##### Testimonial photo credit
-<a href="https://unsplash.com/@samuelzeller?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Samuel Zeller</a>
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://rammazzoti2000.github.io/personal_portfolio/)
+
+This project represents my personal Portfolio and features some of my github projects
+
+### Built With
+This project was built using these technologies.
+* JavaScript
+* Bootstrap
+* HTML
+* CSS3
+* Atom :atom:
+
+## Usage
+
+If you want to use it locally [download](https://github.com/rammazzoti2000/personal_portfolio/archive/development.zip) or clone the repo with the following command on a linux terminal:
+
+```git clone https://github.com/rammazzoti2000/personal_portfolio.git```
+
+cd to the projects directory and open the index.html in your browser
+
+<!-- LIVE VERSION -->
+## Live version
+
+You can see it [here](https://www.alex-portfolio.org/)
+
+<!-- AUTOMATED TEST -->
+## Automated Test
+
+> There are no Automated Test for this project yet
+
+<!-- CONTACT -->
+## Author
+👤 Alexandru Bangau
+
+- Twitter: [@alex_maxinova](https://twitter.com/alex_maxinova)
+- Github: [@rammazzoti2000](https://github.com/rammazzoti2000)
+- Gmail: bangau.alexandru@gmail.com
+
+## :handshake: Contributing
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rammazzoti2000/personal_portfolio/issues).
+
+## Show your support
+
+Give a :star: if you like this project!
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Microverse](https://www.microverse.org/)
+* [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/rammazzoti2000/personal_portfolio.svg?styles/default/yes.svg
+[contributors-url]: https://github.com/rammazzoti2000/personal_portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/rammazzoti2000/personal_portfolio.svg?styles/default/yes.svg
+[forks-url]: https://github.com/rammazzoti2000/personal_portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/rammazzoti2000/personal_portfolio.svg?styles/default/yes.svg
+[stars-url]: https://github.com/rammazzoti2000/personal_portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/rammazzoti2000/personal_portfolio.svg?styles/default/yes.svg
+[issues-url]: https://github.com/rammazzoti2000/personal_portfolio/issues
+[netlify-shield]: https://api.netlify.com/api/v1/badges/f88e03cf-ec7b-4593-ac9b-54e4dabffa33/deploy-status
+[netlify-url]: https://app.netlify.com/sites/alex-bangau/deploys
+[product-screenshot]: images/screenshot.png
