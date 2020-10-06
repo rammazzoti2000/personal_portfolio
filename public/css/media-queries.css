@@ -431,13 +431,13 @@
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 18px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
   
    /* header social links */
-   header .social { font-size: 20px;}
-   header .social li { margin: 0 6px; }
+   header .social { font-size: 25px;}
+   header .social li { margin: 0 10px; }
 
    section .skills .technology {
       padding: 13.6px;
@@ -445,7 +445,7 @@
    }
 
    #portfolio-wrapper {
-      width: 100%;
+      width: 95%;
    }
 
    ul.actions li:first-child {
@@ -460,8 +460,8 @@
    ------------------------------------------------------------------------ */
 
    /* social links */
-   footer .social-links { font-size: 20px; }
-   footer .social-links li { margin-left: 14px; }   
+   footer .social-links { font-size: 25px; }
+   footer .social-links li { margin-left: 20px; }
 
 }
 
