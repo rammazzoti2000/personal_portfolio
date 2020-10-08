@@ -37,7 +37,7 @@
     <br />
     <a href="https://www.alex-portfolio.org/">View Demo</a>
     ·
-    <a href="https://github.com/rammazzoti2000/personal_portfolioi/ssues">Report Bug</a>
+    <a href="https://github.com/rammazzoti2000/personal_portfolio/issues">Report Bug</a>
     ·
     <a href="https://github.com/rammazzoti2000/personal_portfolio/issues">Request Feature</a>
   </p>
