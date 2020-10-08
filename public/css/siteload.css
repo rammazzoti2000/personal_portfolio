@@ -1,0 +1,40 @@
+.siteLoading{
+  background-color: #111;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 1;
+  pointer-events: none;
+  -webkit-transition: opacity cubic-bezier(.4, 0, .2, 1) 436ms;
+  -moz-transition: opacity cubic-bezier(.4, 0, .2, 1) 436ms;
+  transition: opacity cubic-bezier(.4, 0, .2, 1) 436ms;
+  z-index: 9999;
+}
+
+.siteLoading.available{
+  opacity:0;
+}
+
+.siteLoading-frame {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-animation: fadein 436ms;
+  -moz-animation: fadein 436ms;
+  animation: fadein 436ms;
+  height: 98%;
+  }
+
+.siteLoading-image{
+  width: 112px;
+  height: 112px;
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  align-self: center;
+}

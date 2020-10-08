@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css">
     <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css">
     <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/siteload.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="canonical" href="https://github.com/rammazzoti2000/personal-portfolio">
 		<meta property=”og:title” content=”https://photos.app.goo.gl/xsg1JEP3yszniABZ6” />
@@ -48,7 +49,13 @@
     <!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKBJKSQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
+    <div class='siteLoading' id="siteLoading">
+      <div class="siteLoading-frame">
+        <img class='siteLoading-image' src='%PUBLIC_URL%/images/loader.gif' alt="loader" />
+      </div>
+    </div>
+
     <form name="contact-me" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
