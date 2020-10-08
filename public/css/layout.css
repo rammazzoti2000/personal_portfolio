@@ -623,7 +623,7 @@ section .skills .technology:hover {
    opacity: 1;
  }
  .image.thumb:hover:before {
-   background: url("images/overlay.png"), url("images/overlay.png");
+   background: url("images/overlay-bg.png"), url("images/overlay-bg.png");
    opacity: 1;
  }
  .image img {
