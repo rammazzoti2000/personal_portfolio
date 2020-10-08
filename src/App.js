@@ -33,7 +33,7 @@ class App extends Component {
         this.setState({resumeData: data});
         setTimeout(()=>{
           load.outerHTML='';
-        },2000)
+        },1250)
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
