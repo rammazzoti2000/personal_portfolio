@@ -70,7 +70,6 @@ class Contact extends Component {
                     <label htmlFor="contactName">Name <span className="required">*</span></label>
                     <input
                       type="text"
-                      defaultValue=""
                       size="35"
                       id="contactName"
                       name="name"
@@ -83,8 +82,7 @@ class Contact extends Component {
                   <div>
                     <label htmlFor="contactEmail">Email <span className="required">*</span></label>
                     <input
-                      type="text"
-                      defaultValue=""
+                      type="email"
                       size="35"
                       id="contactEmail"
                       name="email"
