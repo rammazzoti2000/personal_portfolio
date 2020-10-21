@@ -24,7 +24,13 @@ class App extends Component {
   }
 
   getResumeData(){
+    
+    
       const load = document.getElementById('siteLoading')
+      const load = document.getElementById('react')
+
+      
+     
     $.ajax({
       url:'/resumeData.json',
       dataType:'json',
@@ -42,6 +48,9 @@ class App extends Component {
     });
   }
 
+  
+  
+  
   componentDidMount(){
     this.getResumeData();
   }
