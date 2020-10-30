@@ -286,7 +286,7 @@ hr { border: solid #E3E3E3; border-width: 2px 0 0; clear: both; margin: 11px 0 3
 /*  3. Links  ------------------------------------------------------- */
 
 a, a:visited {
-   text-decoration: none;
+/*    text-decoration: none; */
    outline: 0;
    color: #11ABB0;
 
