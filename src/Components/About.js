@@ -36,7 +36,7 @@ class About extends Component {
                         {city} {state}, {zip}
                      </span><br />
                      <span>{phone}</span><br />
-                     <span><a href={`mailto:${email}`}>{email}</a></span>
+                     <span><a href={`mailto:${email}?subject=The%20subject%20of%20the%20mail`}>{email}</a></span>
                   </p>
                </div>
                <div className="columns download">

@@ -37,7 +37,7 @@
       },
       {
         "name":"email",
-        "url":"bangau.alexandru@gmail.com",
+        "url":"mailto:bangau.alexandru@gmail.com?subject=The%20subject%20of%20the%20mail",
         "className":"fa fa-envelope"
       }
     ]
