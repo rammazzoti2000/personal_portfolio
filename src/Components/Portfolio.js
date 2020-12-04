@@ -8,9 +8,9 @@ class Portfolio extends Component {
           <div className="twelve columns collapsed">
             <h1>Check Out Some of My Works.</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              <div className="article-wrapper show-on-scroll">
+              <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a href="https://github.com/rammazzoti2000/final-capstone" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/06.png" alt="ror-capstone-lifestyle" /></a>
+                  <a href="https://github.com/rammazzoti2000/final-capstone" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/06.png" alt="final-capstone" /></a>
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Power Tracker WebApp</h3>
@@ -29,9 +29,29 @@ class Portfolio extends Component {
                   </div>
                 </article>
               </div>
-              <div className="article-wrapper show-on-scroll">
+              <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a href="https://github.com/rammazzoti2000/react_capstone" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/07.png" alt="ror-capstone-lifestyle" /></a>
+                  <a href="https://github.com/rammazzoti2000/pic-some-react" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/08.png" alt="pic-some" /></a>
+                  <div className="art-description">
+                    <div className="text-wrapper">
+                      <h3>PicSome WebApp</h3>
+                      <p>A small mock e-commerce website. The idea is for someone to visit the website, look at the images available and choose some of them to have them, theoretically, printed and shipped.</p>
+                    </div>
+                    <ul className="actions">
+                      <div className="actions-wrapper">
+                        <li><a href="https://pic-somejsx.herokuapp.com/" className="button project-button" target="_blank" rel="noopener noreferrer">View Demo</a></li>
+                        <li><a href="https://github.com/rammazzoti2000/pic-some-react" className="button project-button brands" target="_blank" rel="noopener noreferrer"><i className="fa fa-github icon"></i>View Source</a></li>
+                      </div>
+                      <div className="languages">
+                        <i className="devicon-react-plain-wordmark technology"></i>
+                      </div>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+              <div className="article-wrapper">
+                <article className="col-12 col-12-xsmall work-item">
+                  <a href="https://github.com/rammazzoti2000/react_capstone" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/07.png" alt="react-capstone" /></a>
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Pokemon Catalog</h3>
@@ -49,7 +69,7 @@ class Portfolio extends Component {
                   </div>
                 </article>
               </div>
-              <div className="article-wrapper show-on-scroll">
+              <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
                   <a href="https://github.com/rammazzoti2000/ror-capstone-lifestyle" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/01.jpg" alt="ror-capstone-lifestyle" /></a>
                   <div className="art-description">
@@ -70,7 +90,7 @@ class Portfolio extends Component {
                   </div>
                 </article>
               </div>
-              <div className="article-wrapper show-on-scroll">
+              <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
                   <a href="https://github.com/rammazzoti2000/tic-toc-toe" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/02.jpg" alt="tic-toc-toe" /></a>
                   <div className="art-description">
@@ -90,7 +110,7 @@ class Portfolio extends Component {
                   </div>
                 </article>
               </div>
-              <div className="article-wrapper show-on-scroll">
+              <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
                   <a href="https://github.com/rammazzoti2000/HTML-CSS-capstone-project" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/03.jpg" alt="HTML-CSS-capstone-project" /></a>
                   <div className="art-description">
@@ -111,7 +131,7 @@ class Portfolio extends Component {
                   </div>
                 </article>
               </div>
-              <div className="article-wrapper show-on-scroll">
+              <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
                   <a href="https://github.com/rammazzoti2000/Using-Bootstrap" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/04.jpg" alt="Using-Bootstrap" /></a>
                   <div className="art-description">
