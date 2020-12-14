@@ -71,6 +71,27 @@ class Portfolio extends Component {
               </div>
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
+                  <a href="https://github.com/rammazzoti2000/js_capstone_rpg" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/09.png" alt="js-capstone" /></a>
+                  <div className="art-description">
+                    <div className="text-wrapper">
+                      <h3>Final Warrior</h3>
+                      <p>An RPG game mainly focused on collecting as many chests as possible while having to combat against monsters (watch ouf for covid monsters).</p>
+                    </div>
+                    <ul className="actions">
+                      <div className="actions-wrapper">
+                        <li><a href="https://rammazzoti2000.github.io/js_capstone_rpg/" className="button project-button" target="_blank" rel="noopener noreferrer">View Demo</a></li>
+                        <li><a href="https://github.com/rammazzoti2000/js_capstone_rpg" className="button project-button brands" target="_blank" rel="noopener noreferrer"><i className="fa fa-github icon"></i>View Source</a></li>
+                      </div>
+                      <div className="languages">
+                        <i className="devicon-javascript-plain technology"></i>
+                        <i className="devicon-webpack-plain technology"></i>
+                      </div>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+              <div className="article-wrapper">
+                <article className="col-12 col-12-xsmall work-item">
                   <a href="https://github.com/rammazzoti2000/ror-capstone-lifestyle" className="image fit thumb" target="_blank" rel="noopener noreferrer"><img src="images/thumbs/01.jpg" alt="ror-capstone-lifestyle" /></a>
                   <div className="art-description">
                     <div className="text-wrapper">
