@@ -70,6 +70,12 @@ class Resume extends Component {
               <i className="devicon-webpack-plain colored technology"></i>
               <i className="devicon-rails-plain-wordmark technology"></i>
               <i className="devicon-react-plain-wordmark colored technology"></i>
+              <i className="devicon-php-plain technology"></i>
+              <i className="devicon-laravel-plain-wordmark colored technology"></i>
+              <i className="devicon-docker-plain-wordmark technology"></i>
+              <i className="devicon-mysql-plain-wordmark colored technology"></i>
+              <i className="devicon-github-original technology"></i>
+              <i class="devicon-amazonwebservices-plain-wordmark colored technology"></i>
             </div>
           </section>
 				</div>
