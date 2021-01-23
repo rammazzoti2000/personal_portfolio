@@ -13,6 +13,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -44,17 +45,19 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Usage](#usage)
-* [Automated Test](#automated-test)
-* [Author](#author)
-* [Contributing](#contributing)
-* [Acknowledgements](#acknowledgements)
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Usage](#usage)
+- [Automated Test](#automated-test)
+- [Author](#author)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://rammazzoti2000.github.io/personal_portfolio/)
@@ -62,33 +65,41 @@
 This project represents my personal Portfolio and features some of my github projects
 
 ### Built With
+
 This project was built using these technologies.
-* React
-* ES6
-* Node.js
-* HTML
-* CSS3
-* VsCode
-* Netlify Forms
+
+- React
+- ES6
+- Node.js
+- HTML
+- CSS3
+- VsCode
+- Netlify Forms
 
 ## Usage
 
 To have this app on your pc, you need to:
-* [download](https://github.com/rammazzoti2000/personal_portfolio/archive/development.zip) or clone this repo:
+
+- [download](https://github.com/rammazzoti2000/personal_portfolio/archive/development.zip) or clone this repo:
+
   - Clone with SSH:
+
   ```
     git@github.com:rammazzoti2000/personal_portfolio.git
   ```
+
   - Clone with HTTPS
+
   ```
     https://github.com/rammazzoti2000/personal_portfolio.git
   ```
 
-* In the project directory, you can run:
+- In the project directory, you can run:
 
   - `$ npm install` - installs all the dependencies required by the project
 
   - `$ npm start` - runs the app in the development mode:
+
     - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
     - The page will reload if you make edits.
     - You will also see any lint errors in the console.
@@ -100,15 +111,19 @@ To have this app on your pc, you need to:
     - Your app is ready to be deployed!
 
 ## Automated Test
-  > There are no Automated Test for this project
+
+> There are no Automated Test for this project
 
 <!-- LIVE VERSION -->
+
 ## Live version
 
 You can see it [here](https://www.alex-portfolio.org/)
 
 <!-- CONTACT -->
+
 ## Author
+
 👤 Alexandru Bangau
 
 - Twitter: [@alex_maxinova](https://twitter.com/alex_maxinova)
@@ -116,6 +131,7 @@ You can see it [here](https://www.alex-portfolio.org/)
 - Gmail: bangau.alexandru@gmail.com
 
 ## :handshake: Contributing
+
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/rammazzoti2000/personal_portfolio/issues).
@@ -125,13 +141,16 @@ Feel free to check the [issues page](https://github.com/rammazzoti2000/personal_
 Give a :star: if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
+
 ## Acknowledgements
-* [Microverse](https://www.microverse.org/)
-* [SmartMockups](https://smartmockups.com/)
-* [Netlify](https://www.netlify.com/)
+
+- [Microverse](https://www.microverse.org/)
+- [SmartMockups](https://smartmockups.com/)
+- [Netlify](https://www.netlify.com/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/rammazzoti2000/personal_portfolio.svg?styles/default/yes.svg
 [contributors-url]: https://github.com/rammazzoti2000/personal_portfolio/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/rammazzoti2000/personal_portfolio.svg?styles/default/yes.svg

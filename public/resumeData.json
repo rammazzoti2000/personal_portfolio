@@ -1,92 +1,92 @@
 {
   "main": {
-    "name":"Alexandru Bangau",
-    "occupation":"Full-Stack Web Developer",
-    "description":"I like to code things from scratch, and enjoy bringing ideas to life in the browser",
-    "image":"profilepic.jpg",
-    "contactmessage":"Have me make stuff for you. If you like my work and have some cool projects to work on, just send me a direct message or contact me through social sites.",
+    "name": "Alexandru Bangau",
+    "occupation": "Full-Stack Web Developer",
+    "description": "I like to code things from scratch, and enjoy bringing ideas to life in the browser",
+    "image": "profilepic.jpg",
+    "contactmessage": "Have me make stuff for you. If you like my work and have some cool projects to work on, just send me a direct message or contact me through social sites.",
     "email": "bangau.alexandru@gmail.com",
     "phone": "+39 (351) 924-4690",
-    "address":{
-      "city":"Turin",
-      "state":"Italy",
+    "address": {
+      "city": "Turin",
+      "state": "Italy",
       "zip": "10050"
     },
     "website": "https://www.alex-portfolio.org/",
-    "resumedownload":"https://drive.google.com/uc?export=pdf&id=1Z5hSjSXwjk3i4BdCfehg0YSAKZ34BDfC",
-    "social":[
+    "resumedownload": "https://drive.google.com/uc?export=pdf&id=1Z5hSjSXwjk3i4BdCfehg0YSAKZ34BDfC",
+    "social": [
       {
-        "name":"twitter",
-        "url":"https://twitter.com/alex_maxinova",
-        "className":"fa fa-twitter"
+        "name": "twitter",
+        "url": "https://twitter.com/alex_maxinova",
+        "className": "fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/alexandru-bangau/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/alexandru-bangau/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"https://github.com/rammazzoti2000",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/rammazzoti2000",
+        "className": "fa fa-github"
       },
       {
-        "name":"skype",
-        "url":"https://join.skype.com/invite/lE9Ztm1Vjdve",
-        "className":"fa fa-skype"
+        "name": "skype",
+        "url": "https://join.skype.com/invite/lE9Ztm1Vjdve",
+        "className": "fa fa-skype"
       },
       {
-        "name":"email",
-        "url":"mailto:bangau.alexandru@gmail.com?subject=The%20subject%20of%20the%20mail",
-        "className":"fa fa-envelope"
+        "name": "email",
+        "url": "mailto:bangau.alexandru@gmail.com?subject=The%20subject%20of%20the%20mail",
+        "className": "fa fa-envelope"
       }
     ]
   },
-  "resume":{
-    "education":[
+  "resume": {
+    "education": [
       {
-        "school":"Microverse",
-        "degree":"Full-Stack Web Development",
-        "graduated":"September 2020",
-        "description":"Attending Microverse involved the study of Algorithms and Data Stuctures, SQL syntax and statements, Full Stack Web Development with Ruby on Rails, JavaScript, React and Redux. Also based on mockups and a broad list of requirements, it was required to build complex web applications and terminal utilities."
+        "school": "Microverse",
+        "degree": "Full-Stack Web Development",
+        "graduated": "September 2020",
+        "description": "Attending Microverse involved the study of Algorithms and Data Stuctures, SQL syntax and statements, Full Stack Web Development with Ruby on Rails, JavaScript, React and Redux. Also based on mockups and a broad list of requirements, it was required to build complex web applications and terminal utilities."
       },
       {
-        "school":"Polytechnic University of Turin",
-        "degree":"Electronics and Communication Engineering",
-        "graduated":"former student",
-        "description":"The first year required the study of foundations of mathematics, physics, computer science, computer networks and electronics. The second year required the study of advanced mathematics and physics, and the fundamentals of electronic systems."
+        "school": "Polytechnic University of Turin",
+        "degree": "Electronics and Communication Engineering",
+        "graduated": "former student",
+        "description": "The first year required the study of foundations of mathematics, physics, computer science, computer networks and electronics. The second year required the study of advanced mathematics and physics, and the fundamentals of electronic systems."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Auxilium Youth Tribe",
-        "title":"Back-End Web Developer",
-        "years":"August 2020 - Present",
-        "description":"Built the backend authentication platform for their main webstite (still being developed). Contributed to the team with small tasks, such as code review, TDD Development, design improvements, etc."
+        "company": "Auxilium Youth Tribe",
+        "title": "Back-End Web Developer",
+        "years": "August 2020 - Present",
+        "description": "Built the backend authentication platform for their main webstite (still being developed). Contributed to the team with small tasks, such as code review, TDD Development, design improvements, etc."
       },
       {
-        "company":"Microverse",
-        "title":"Technical Support Engineer",
-        "years":"April 2020 - Present",
-        "description":"Performed coding reviews and completed 50+ reviews for students in the HTML & CSS curriculum from all over the world. Provided support through professional assistance platforms Zoom and Slack as they needed extra support during their projects."
+        "company": "Microverse",
+        "title": "Technical Support Engineer",
+        "years": "April 2020 - Present",
+        "description": "Performed coding reviews and completed 50+ reviews for students in the HTML & CSS curriculum from all over the world. Provided support through professional assistance platforms Zoom and Slack as they needed extra support during their projects."
       },
       {
-        "company":"Microverse",
-        "title":"Student Mentor",
-        "years":"February 2020 - November 2020",
-        "description":"Mentored students on a 1:1 basis using Zoom Conference Platform. Provided both technical and professional assistance as they complete individual and group projects throughout the core curriculum."
+        "company": "Microverse",
+        "title": "Student Mentor",
+        "years": "February 2020 - November 2020",
+        "description": "Mentored students on a 1:1 basis using Zoom Conference Platform. Provided both technical and professional assistance as they complete individual and group projects throughout the core curriculum."
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "testimonials": {
+    "testimonials": [
       {
-        "text":"Alexandru has a great mentality that always seeks to improve his skills. His discipline makes working with him easy and challenging at the same time. He loves to share his ideas and accomplishments with other people, which makes him very easily leave an impact in any working environment.",
-        "user":"Muhammed Ebeid | Software Engineer - Full Stack Ruby on Rails/React.js"
+        "text": "Alexandru has a great mentality that always seeks to improve his skills. His discipline makes working with him easy and challenging at the same time. He loves to share his ideas and accomplishments with other people, which makes him very easily leave an impact in any working environment.",
+        "user": "Muhammed Ebeid | Software Engineer - Full Stack Ruby on Rails/React.js"
       },
       {
-        "text":"I worked with Alexandru at Microverse. Alexandra is detailed orientated, has advanced system engineering and problem-solving skills. He has the ability to effectively manage several tasks at a time.",
-        "user":"Dickens Juma | Software Developer at Bluewave Insurance Agency"
+        "text": "I worked with Alexandru at Microverse. Alexandra is detailed orientated, has advanced system engineering and problem-solving skills. He has the ability to effectively manage several tasks at a time.",
+        "user": "Dickens Juma | Software Developer at Bluewave Insurance Agency"
       }
     ]
   }
