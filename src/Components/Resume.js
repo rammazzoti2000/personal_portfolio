@@ -69,11 +69,11 @@ class Resume extends Component {
                 <i className="devicon-git-plain-wordmark colored technology"></i>
                 <i className="devicon-bootstrap-plain-wordmark technology"></i>
                 <i className="devicon-css3-plain-wordmark colored technology"></i>
-                <i className="devicon-sass-original  technology"></i>
+                <i className="devicon-sass-original technology"></i>
                 <i className="devicon-html5-plain-wordmark colored technology"></i>
                 <i className="devicon-ruby-plain-wordmark technology"></i>
                 <i className="devicon-javascript-plain colored technology"></i>
-                <i className="devicon-postgresql-plain-wordmark  technology"></i>
+                <i className="devicon-postgresql-plain-wordmark technology"></i>
                 <i className="devicon-webpack-plain colored technology"></i>
                 <i className="devicon-rails-plain-wordmark technology"></i>
                 <i className="devicon-react-plain-wordmark colored technology"></i>
@@ -82,7 +82,7 @@ class Resume extends Component {
                 <i className="devicon-docker-plain-wordmark technology"></i>
                 <i className="devicon-mysql-plain-wordmark colored technology"></i>
                 <i className="devicon-github-original technology"></i>
-                <i class="devicon-amazonwebservices-plain-wordmark colored technology"></i>
+                <i className="devicon-amazonwebservices-plain-wordmark colored technology"></i>
               </div>
             </section>
           </div>
