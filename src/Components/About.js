@@ -3,6 +3,7 @@ import resume from '../assets/resume.pdf';
 
 class About extends Component {
   render() {
+    // We can destructure the props this way 
     const {
       data: {
         name,

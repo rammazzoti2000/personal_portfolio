@@ -20,7 +20,8 @@ jQuery(document).ready(function ($) {
   /* Smooth Scrolling
 ------------------------------------------------------ */
 
-  $(".smoothscroll").on("click", function (e) {
+  $(".smoothscroll").on("click", function (e) {    
+
     e.preventDefault();
 
     var target = this.hash,
@@ -30,7 +31,7 @@ jQuery(document).ready(function ($) {
       .stop()
       .animate(
         {
-          scrollTop: $target.offset().top,
+         scrollTop: $target.offset().top,
         },
         800,
         "swing",
@@ -99,7 +100,7 @@ jQuery(document).ready(function ($) {
   /*	Modal Popup
 ------------------------------------------------------*/
 
-  $(".item-wrap a").magnificPopup({
+ /* $(".item-wrap a").magnificPopup({
     type: "inline",
     fixedContentPos: false,
     removalDelay: 200,
@@ -107,10 +108,10 @@ jQuery(document).ready(function ($) {
     mainClass: "mfp-fade",
   });
 
-  $(document).on("click", ".popup-modal-dismiss", function (e) {
+  $(document).on("click", ".popup-modal-dismiss", function (e) {   
     e.preventDefault();
     $.magnificPopup.close();
-  });
+  });*/
 
   /*----------------------------------------------------*/
   /*	Flexslider

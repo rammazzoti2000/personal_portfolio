@@ -67,22 +67,22 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag('js', new Date());
+      gtag("js", new Date());
 
-      gtag('config', 'UA-169274370-1');
+      gtag("config", "UA-169274370-1");
     </script>
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
-        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
+          dl = l != "dataLayer" ? "&l=" + l : "";
         j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
         f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-MKBJKSQ');
+      })(window, document, "script", "dataLayer", "GTM-MKBJKSQ");
     </script>
     <!-- End Google Tag Manager -->
   </head>
@@ -98,6 +98,16 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <div class="siteLoading" id="siteLoading">
+      <div class="siteLoading-frame">
+        <img
+          class="siteLoading-image"
+          src="%PUBLIC_URL%/images/loader.gif"
+          alt="loader"
+        />
+      </div>
+    </div>
 
     <!-- <form name="contact-me" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
