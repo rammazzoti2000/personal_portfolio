@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
+import $ from 'jquery';
 import './App.css';
 
 class App extends Component {
@@ -18,19 +19,23 @@ class App extends Component {
     };
   }
 
-  getResumeData() {
-    const load = document.getElementById('siteLoading');
-
-    fetch('/resumeData.json')
-      .then((response) => response.json())
-      .then((data) => {
-        this.setState({ resumeData: data });
-        load.outerHTML = '';
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }
+  getResumeData(){
+      const load = document.getElementById('siteLoading')
+    $.ajax({
+      url:'/resumeData.json',
+      dataType:'json',
+      cache: false,
+      success: function(data){
+        this.setState({resumeData: data});
+        setTimeout(()=>{
+          load.outerHTML='';
+        },1250)
+      }.bind(this),
+      error: function(xhr, status, err){
+        console.log(err);
+        alert(err);
+      }
+    });
 
   componentDidMount() {
     this.getResumeData();
