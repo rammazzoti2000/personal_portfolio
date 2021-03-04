@@ -19,8 +19,9 @@ class App extends Component {
     };
   }
 
-  getResumeData(){
-      const load = document.getElementById('siteLoading')
+  getResumeData() {
+    const load = document.getElementById('siteLoading');
+
     $.ajax({
       url:'/resumeData.json',
       dataType:'json',
@@ -29,13 +30,14 @@ class App extends Component {
         this.setState({resumeData: data});
         setTimeout(()=>{
           load.outerHTML='';
-        },1250)
+        }, 1250)
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
         alert(err);
       }
     });
+  }
 
   componentDidMount() {
     this.getResumeData();
