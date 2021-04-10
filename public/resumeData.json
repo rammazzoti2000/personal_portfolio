@@ -48,7 +48,7 @@
         "school":"Microverse",
         "degree":"Full-Stack Web Development",
         "graduated":"September 2020",
-        "description":"Attending Microverse involved the study of Algorithms and Data Stuctures, SQL syntax and statements, Full Stack Web Development with Ruby on Rails, JavaScript, React and Redux. Also based on mockups and a broad list of requirements, it was required to build complex web applications and terminal utilities."
+        "description":"Attending Microverse involved the study of Algorithms and Data Structures, SQL syntax and statements, Full Stack Web Development with Ruby on Rails, JavaScript, React and Redux. Also based on mockups and a broad list of requirements, it was required to build complex web applications and terminal utilities."
       },
       {
         "school":"Polytechnic University of Turin",
@@ -59,15 +59,21 @@
     ],
     "work":[
       {
+        "company": "Baamboozle",
+        "title": "Software Developer",
+        "years": "December 2020 - April 2021",
+        "description": "Researched, designed and managed software programs, as well as testing and evaluating new programs. Modified software to fix errors and improve its performance. Made use of deploying software tools, processes and metrics for performance and overall platform improvements. Directed software programming and documentation development, wrote and implemented code. Prepared reports on programming project specifications, activities, or status of current project. Consulted with engineering staff to evaluate software-hardware interfaces and developed specifications and performance requirements."
+      },
+      {
         "company":"Auxilium Youth Tribe",
         "title":"Back-End Web Developer",
-        "years":"August 2020 - Present",
-        "description":"Built the backend authentication platform for their main webstite (still being developed). Contributed to the team with small tasks, such as code review, TDD Development, design improvements, etc."
+        "years":"August 2020 - December 2020",
+        "description":"Built the backend authentication platform for their main website (still being developed). Contributed to the team with small tasks, such as code review, TDD Development, design improvements, etc."
       },
       {
         "company":"Microverse",
         "title":"Technical Support Engineer",
-        "years":"April 2020 - Present",
+        "years":"April 2020 - January 2021",
         "description":"Performed coding reviews and completed 50+ reviews for students in the HTML & CSS curriculum from all over the world. Provided support through professional assistance platforms Zoom and Slack as they needed extra support during their projects."
       },
       {
